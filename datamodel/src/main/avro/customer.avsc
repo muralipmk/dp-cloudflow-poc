@@ -1,0 +1,19 @@
+{
+    "namespace": "datamodel.customer",
+    "type": "record",
+    "name": "Customer",
+    "fields":[
+         {
+            "name": "customerId", "type": "long"
+         },
+         {
+            "name": "customerName", "type": "string"
+         },
+         {
+            "name": "customerLastName", "type": "string"
+         },
+         {
+            "name": "customerAge", "type": "int"
+         }
+    ]
+}
